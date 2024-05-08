@@ -1,0 +1,79 @@
+.navbar {
+  margin-top: 10px;
+}
+
+.navbar-btn {
+  background: none;
+  border: none;
+}
+
+.hamburger-icon {
+  height: 30px;
+  width: 40px;
+}
+
+.navbar-btns {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  row-gap: 5px;
+  transition: all 1s ease-in-out;
+}
+
+.navbar-open {
+  transform: translateX(0);
+}
+
+.navbar-close {
+  transform: translateX(-100%);
+}
+
+.main {
+  background-image: url('./assets//hijab-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: end;
+}
+
+.hero-title {
+  color: #FFDAC0;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.store-title {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 39px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  gap: 20px;
+  background-color: #FFDAC0;
+}
+
+.item-price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buy-btn {
+  height: 40px;
+  font-size: 15px;
+}
